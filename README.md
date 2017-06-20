@@ -1,5 +1,4 @@
-![image of the resume](img/resume.png)
-
+[Download as a pdf](https://github.com/Nishnha/resume/raw/master/resume.pdf)
 ---
 
-###[Download a copy of the resume](resume.pdf)
+![image of the resume](img/resume.png)
