@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Dosis:200|Muli|Source+Sans+Pro|Gudea");
 @media print {
   @page {
-    height: 11in;
-    width: 8.5in;
-    margin: 0;
+    height: 11in !important;
+    width: 8.5in !important;
+    margin: 0 !important;
     border: 0;
     padding: 0; }
   resume {
