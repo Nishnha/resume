@@ -10,9 +10,9 @@
 
 @media print
 	@page
-		height: 11in !important
-		width: 8.5in !important
-		margin: 0 !important
+		height: 11in
+		width: 8.5in
+		margin: 0
 		border: 0
 		padding: 0
 	resume
@@ -60,26 +60,16 @@ i
 		padding-top: $standard-margin
 		padding-bottom: $standard-margin
 
-.common
-	padding-left: 20px
-	padding-right: 25px
-	h3, h4
-		font-size: 20px
-		// text-align: center
-		width: 100%
-		margin: 0 -20px 0 -20px
-		padding: 10px 20px 0px 20px
-	&:last-of-type
-		margin-bottom: 0
-
 .left
 	float: left
 	width: 3.5in
 	height: $height
 	background-color: $blue-bg
 	color: white
+	& > div
+		padding-left: 55px
+		padding-right: 55px
 #name
-	width: 100%
 	.photo
 		width: 160px
 		border-radius: 50%
@@ -101,31 +91,39 @@ i
 			font-weight: lighter
 #contact
 	display: inline
+	margin-left: 20px
 	font-size: 14.6px
-	margin-left: 70px
 	.logo
 		width: 20px
 		float: left
-		padding-right: 9px
+		padding-right: 15px
 #awards
-	margin-left: 40px
-	margin-right: 34px
+	// margin-left: 25px
 	.award-item
-		width: 100%
-		margin: 0 -20px 0 -20px
-		padding: 10px 20px 10px 20px
 		p
 			font-family: "Muli"
 			font-size: 13px
 			margin: 0
 			&:nth-child(1)
-				margin-bottom: 5px
+				margin-bottom: 0px
 			&:nth-child(2)
-				margin-bottom: 10px
+				margin-bottom: 5px
+			&:nth-child(3)
+				margin-bottom: 20px
 
 .right
 	height: $height
 	color: black
+	& > div
+		padding-left: 20px
+		padding-right: 25px
+	h3, h4
+		font-size: 20px
+		width: 100%
+		margin: 0 -20px 0 -20px
+		padding: 10px 20px 0px 20px
+	&:last-of-type
+		margin-bottom: 0
 #languages
 	.lang-logo
 		display: block
