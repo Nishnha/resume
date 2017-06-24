@@ -1,0 +1,172 @@
+///////////////////////////////////
+///////////// FONTS // ////////////
+///////////////////////////////////
+
+@import url('https://fonts.googleapis.com/css?family=Dosis:200|Muli|Source+Sans+Pro|Gudea')
+
+///////////////////////////////////
+//////// PRINT QUERIES ////////////
+///////////////////////////////////
+
+@media print
+	@page
+		height: 11in
+		width: 8.5in
+		margin: 0
+		border: 0
+		padding: 0
+	resume
+		margin: 0 !important
+	body
+		background-color: white
+		margin: 0
+		padding: 0
+
+///////////////////////////////////
+//////////// VARIABLES ////////////
+///////////////////////////////////
+
+$standard-margin: 40px
+$height: calc(11in - 80px)
+$outside-padding: 25px
+$blue-bg: #2D3E4E
+
+///////////////////////////////////
+///////////// GENERICS ////////////
+///////////////////////////////////
+
+body
+	background-image: url("../img/footer_lodyas.png")
+	background-repeat: repeat
+i
+	float: left
+	margin-right: 15px
+
+///////////////////////////////////
+///////////// CUSTOM  /////////////
+///////////////////////////////////
+
+.resume
+	margin: $standard-margin auto
+	position: relative
+	box-sizing: border-box
+	width: 8.5in
+	height: 11in
+	background-color: white
+	color: white
+	font-family: "Source Sans Pro"
+	font-size: 13px
+	& > div
+		padding-top: $standard-margin
+		padding-bottom: $standard-margin
+
+.common
+	padding-left: 20px
+	padding-right: 25px
+	h3, h4
+		font-size: 20px
+		// text-align: center
+		width: 100%
+		margin: 0 -20px 0 -20px
+		padding: 10px 20px 0px 20px
+	&:last-of-type
+		margin-bottom: 0
+
+.left
+	float: left
+	width: 3.5in
+	height: $height
+	background-color: $blue-bg
+	color: white
+#name
+	width: 100%
+	.photo
+		width: 160px
+		border-radius: 50%
+		display: block
+		margin: auto
+	.title
+		text-align: center
+		height: 100px
+		font-weight: 200
+		h1, h2
+			margin: 0
+		h1
+			font-family: 'Gudea', sans-serif
+			font-size: 30px
+			padding-top: 10px
+		h2
+			font-family: 'Source Sans Pro', sans-serif
+			font-size: 20px
+			font-weight: lighter
+#contact
+	display: inline
+	font-size: 14.6px
+	margin-left: 70px
+	.logo
+		width: 20px
+		float: left
+		padding-right: 9px
+#awards
+	margin-left: 40px
+	margin-right: 34px
+	.award-item
+		width: 100%
+		margin: 0 -20px 0 -20px
+		padding: 10px 20px 10px 20px
+		p
+			font-family: "Muli"
+			font-size: 13px
+			margin: 0
+			&:nth-child(1)
+				margin-bottom: 5px
+			&:nth-child(2)
+				margin-bottom: 10px
+
+.right
+	height: $height
+	color: black
+#languages
+	.lang-logo
+		display: block
+		text-align: center
+		img
+			width: 25px
+			height: 25px
+
+.flex
+	display: flex
+	flex-direction: column
+	justify-content: space-between
+	align-items: stretch
+.flex2
+	width: 100%
+	display: flex
+	flex-wrap: wrap
+	flex-direction: row
+	justify-content: space-between
+
+.item
+	width: 100%
+	margin: 0 -20px 0 -20px
+	padding: 0px 20px 10px 20px
+	clear: both
+	p
+		font-family: "Muli"
+		font-size: 13.5px
+		&:nth-child(1)
+			float: left
+			margin-bottom: 5px
+		&:nth-child(2)
+			float: right
+			margin-bottom: 5px
+		&:nth-child(n+3)
+			clear: both
+			margin-top: 0
+		&:last-child
+			margin-bottom: 0
+.list
+	ul
+		padding: 0
+	li
+		list-style-type: none

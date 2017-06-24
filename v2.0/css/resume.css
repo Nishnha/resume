@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis:200|Muli|Source+Sans+Pro|Gudea");
+@media print {
+  @page {
+    height: 11in;
+    width: 8.5in;
+    margin: 0;
+    border: 0;
+    padding: 0; }
+  resume {
+    margin: 0 !important; }
+
+  body {
+    background-color: white;
+    margin: 0;
+    padding: 0; } }
+body {
+  background-image: url("../img/footer_lodyas.png");
+  background-repeat: repeat; }
+
+i {
+  float: left;
+  margin-right: 15px; }
+
+.resume {
+  margin: 40px auto;
+  position: relative;
+  box-sizing: border-box;
+  width: 8.5in;
+  height: 11in;
+  background-color: white;
+  color: white;
+  font-family: "Source Sans Pro";
+  font-size: 13px; }
+  .resume > div {
+    padding-top: 40px;
+    padding-bottom: 40px; }
+
+.common {
+  padding-left: 20px;
+  padding-right: 25px; }
+  .common h3, .common h4 {
+    font-size: 20px;
+    width: 100%;
+    margin: 0 -20px 0 -20px;
+    padding: 10px 20px 0px 20px; }
+  .common:last-of-type {
+    margin-bottom: 0; }
+
+.left {
+  float: left;
+  width: 3.5in;
+  height: calc(11in - 80px);
+  background-color: #2D3E4E;
+  color: white; }
+
+#name {
+  width: 100%; }
+  #name .photo {
+    width: 160px;
+    border-radius: 50%;
+    display: block;
+    margin: auto; }
+  #name .title {
+    text-align: center;
+    height: 100px;
+    font-weight: 200; }
+    #name .title h1, #name .title h2 {
+      margin: 0; }
+    #name .title h1 {
+      font-family: "Gudea", sans-serif;
+      font-size: 30px;
+      padding-top: 10px; }
+    #name .title h2 {
+      font-family: "Source Sans Pro", sans-serif;
+      font-size: 20px;
+      font-weight: lighter; }
+
+#contact {
+  display: inline;
+  font-size: 14.6px;
+  margin-left: 70px; }
+  #contact .logo {
+    width: 20px;
+    float: left;
+    padding-right: 9px; }
+
+#awards {
+  margin-left: 40px;
+  margin-right: 34px; }
+  #awards .award-item {
+    width: 100%;
+    margin: 0 -20px 0 -20px;
+    padding: 10px 20px 10px 20px; }
+    #awards .award-item p {
+      font-family: "Muli";
+      font-size: 13px;
+      margin: 0; }
+      #awards .award-item p:nth-child(1) {
+        margin-bottom: 5px; }
+      #awards .award-item p:nth-child(2) {
+        margin-bottom: 10px; }
+
+.right {
+  height: calc(11in - 80px);
+  color: black; }
+
+#languages .lang-logo {
+  display: block;
+  text-align: center; }
+  #languages .lang-logo img {
+    width: 25px;
+    height: 25px; }
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch; }
+
+.flex2 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.item {
+  width: 100%;
+  margin: 0 -20px 0 -20px;
+  padding: 0px 20px 10px 20px;
+  clear: both; }
+  .item p {
+    font-family: "Muli";
+    font-size: 13.5px; }
+    .item p:nth-child(1) {
+      float: left;
+      margin-bottom: 5px; }
+    .item p:nth-child(2) {
+      float: right;
+      margin-bottom: 5px; }
+    .item p:nth-child(n+3) {
+      clear: both;
+      margin-top: 0; }
+    .item p:last-child {
+      margin-bottom: 0; }
+
+.list ul {
+  padding: 0; }
+.list li {
+  list-style-type: none; }
+
+/*# sourceMappingURL=resume.css.map */
