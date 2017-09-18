@@ -6,8 +6,9 @@
     margin: 0;
     border: 0;
     padding: 0; }
-  resume {
-    margin: 0 !important; }
+  .resume {
+    margin: 0 !important;
+    padding: 0; }
 
   body {
     background-color: white;
@@ -31,11 +32,10 @@ i {
   color: white;
   font-family: "Source Sans Pro";
   font-size: 13px; }
-  .resume > div {
-    padding-top: 40px;
-    padding-bottom: 40px; }
 
 .left {
+  padding-top: 40px;
+  padding-bottom: 40px;
   float: left;
   width: 3.5in;
   height: calc(11in - 80px);
@@ -86,6 +86,8 @@ i {
     margin-bottom: 20px; }
 
 .right {
+  padding-top: 20px;
+  padding-bottom: 40px;
   height: calc(11in - 80px);
   color: black; }
   .right > div {
@@ -129,9 +131,11 @@ i {
     font-size: 13.5px; }
     .item p:nth-child(1) {
       float: left;
+      margin-top: 5px;
       margin-bottom: 5px; }
     .item p:nth-child(2) {
       float: right;
+      margin-top: 5px;
       margin-bottom: 5px; }
     .item p:nth-child(n+3) {
       clear: both;
