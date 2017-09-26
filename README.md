@@ -1,6 +1,6 @@
-## Version 2.0
+## Resume
 
-[Download as a pdf](https://github.com/Nishnha/resume/raw/master/resume_v2.0.pdf)
+[Download as a pdf](https://github.com/Nishnha/resume/raw/master/resume.pdf)
 ---
 
-![image of the resume](v2.0/img/resume_v2.0.jpg)
+![image of the resume](src/img/resume.jpg)
